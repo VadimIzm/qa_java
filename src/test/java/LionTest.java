@@ -26,8 +26,8 @@ public class LionTest {
 
     @Test
     public void testGetKittens() {
-        Mockito.when(feline.getKittens()).thenReturn(3);
-        assertEquals(3, lion.getKittens());
+        Mockito.when(feline.getKittens()).thenReturn(1);
+        assertEquals(1, lion.getKittens());
     }
 
     @Test
